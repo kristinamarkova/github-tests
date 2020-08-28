@@ -31,7 +31,7 @@ public class RepoTabTests extends BaseTestClass{
         List<WebElement> repos =  driver.findElements(By.xpath("//div[@id='user-repositories-list']//li"));
 
         // Assert
-        assertEquals(5, repos.size());
+        assertEquals(6, repos.size());
     }
 
     @Test
